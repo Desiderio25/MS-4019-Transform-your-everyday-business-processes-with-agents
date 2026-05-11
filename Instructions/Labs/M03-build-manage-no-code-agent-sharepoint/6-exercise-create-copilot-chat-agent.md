@@ -27,8 +27,8 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
 1. At this point, Agent Builder typically prompts you to refine the description for your agent. It does so through a series of questions or suggested prompts. You can optionally respond to each question or select certain prompts until the agent's description is to your liking. 
 
-   > [!IMPORTANT]
-   > The beauty of the Agent Builder process is that it automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
+    > [!IMPORTANT]
+    > The beauty of the Agent Builder process is that it automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
 
 1. Once you're satisfied with the agent's description, select the **Configure** tab at the top of the form. Let’s see what Agent Builder did based on your finalized description.
 
@@ -47,8 +47,8 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
 1. Now that you’re satisfied with the instructions, you’re ready to configure the agent’s knowledge sources and suggested prompts. On the **Configure** tab, scroll down to the **Knowledge** section. You should assign any relevant data sources, such as SharePoint sites, documents, or non-Microsoft integrations, that your agent should reference.
 
-   > [!WARNING]
-   > If you don't add any public websites or work data to your agent, it might still be able to respond to your requests, but only using general capabilities of the underlying large language model (LLM), such as answering common knowledge questions, basic reasoning, or generating generalized text. As such, it's recommended that you ground your agents in specific work data or public websites; otherwise, the agent's responses might lack the context or relevance needed for business-specific tasks.
+    > [!WARNING]
+    > If you don't add any public websites or work data to your agent, it might still be able to respond to your requests, but only using general capabilities of the underlying large language model (LLM), such as answering common knowledge questions, basic reasoning, or generating generalized text. As such, it's recommended that you ground your agents in specific work data or public websites; otherwise, the agent's responses might lack the context or relevance needed for business-specific tasks.
 
 1. In the **Capabilities** section, you can optionally enable the **Code interpreter** and **Image generator** tools by selecting their toggle switches. Both tools are turned Off by default.
 
@@ -62,8 +62,8 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
 1. Once the agent is created, a dialog box appears that indicates the agent was successfully created. In this dialog box, you can either go to the agent or share it. Select the **Go to agent** option.
 
-   > [!NOTE]
-   > At this stage, the agent is private and accessible only to you. In a real-world scenario where the agent needs to be used by multiple team members, you would share it with those individuals. For this training exercise, sharing isn’t required since you’re working within your own tenant.
+    > [!NOTE]
+    > At this stage, the agent is private and accessible only to you. In a real-world scenario where the agent needs to be used by multiple team members, you would share it with those individuals. For this training exercise, sharing isn’t required since you’re working within your own tenant.
 
 1. On your agent's window, note how the agent appears in the navigation pane. Feel free to enter any of the starter prompts or enter any other custom prompts to run the agent. 
 
