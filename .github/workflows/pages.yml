@@ -1,0 +1,68 @@
+name: Deploy Jekyll site to GitHub Pages
+
+on:
+  # Run on every push to the default branch so the published site stays current.
+  push:
+    branches:
+      - main
+  # Allow the workflow to be run manually from the Actions tab.
+  workflow_dispatch:
+
+# Permissions required by the official GitHub Pages deploy action.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Ensure that only one Pages deployment runs at a time. Don't cancel in-progress
+# runs because we want each deployment to finish so the site is consistent.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: false
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Install Jekyll and plugins
+        run: |
+          gem install jekyll -v "~> 3.10"
+          gem install jekyll-remote-theme jekyll-sitemap jekyll-mentions jemoji jekyll-include-cache kramdown-parser-gfm
+
+      - name: Build with Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: |
+          jekyll build \
+            --baseurl "${{ steps.pages.outputs.base_path }}" \
+            --destination ./_site \
+            --plugin jekyll-remote-theme,jekyll-sitemap,jekyll-mentions,jemoji,jekyll-include-cache
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
