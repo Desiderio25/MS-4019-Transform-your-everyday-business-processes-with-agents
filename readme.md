@@ -20,6 +20,8 @@ The site is built automatically from the `main` branch by the [`Deploy Jekyll si
 2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 3. Push to `main` (or run the workflow manually from the **Actions** tab) and the site will be deployed to the URL above.
 
+> If you fork this repository, your published site will be served from `https://<your-github-username>.github.io/<your-repo-name>/` — update the link above accordingly.
+
 ## Information for MCTs
 <!-- You can remove this section if the exercises will not be used to support Microsoft Official Curriculum ILT -->
 
