@@ -8,6 +8,20 @@ This repo contains exercises and supporting files for Microsoft skilling content
 The exercises may be used in both self-paced skilling experiences on [Microsoft Learn](https://learn.microsoft.com) and in Microsoft authorized instructor-led training.
 <!-- Update the paragraph above with a link to a specific Learning Path or course as appropriate -->
 
+## Web version of the exercises
+
+A web-friendly version of these exercises is published with **GitHub Pages** so they can be shared with students who don't want to (or can't) browse the source repo directly:
+
+<https://desiderio25.github.io/MS-4019-Transform-your-everyday-business-processes-with-agents/>
+
+The site is built automatically from the `main` branch by the [`Deploy Jekyll site to GitHub Pages`](.github/workflows/pages.yml) workflow. To activate publishing the first time:
+
+1. In the repository on GitHub, open **Settings** > **Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Push to `main` (or run the workflow manually from the **Actions** tab) and the site will be deployed to the URL above.
+
+> If you fork this repository, your published site will be served from `https://<your-github-username>.github.io/<your-repo-name>/` — update the link above accordingly.
+
 ## Information for MCTs
 <!-- You can remove this section if the exercises will not be used to support Microsoft Official Curriculum ILT -->
 
