@@ -68,7 +68,7 @@ Use a SharePoint site that contains content such as documents, pages, or lists. 
 
    1. The **Pick items** window opens. Browse the available libraries and lists for the site. Select the document library, folder, file, page, or list that you want to add as a knowledge source for the agent.
 
-      - **Select all the files and folders in the Documents library**. Open the **Documents** library, toggle selection for all items, and then select **Select**. You return to the **Sources** tab, where the selected files and folders appear below the SharePoint site source.
+      - **Select all the files and folders in the Documents library**. Open the **Documents** library, select the checkbox to toggle selection for all items, and then select **Select**. You return to the **Sources** tab, where the selected files and folders appear below the SharePoint site source.
 
       - **Select specific files and folders within the Documents library**. Select one or more files or folders. A check mark appears next to each selected item. Select **Select** to return to the **Sources** tab, where the selected files and folders appear below the SharePoint site source.
 
