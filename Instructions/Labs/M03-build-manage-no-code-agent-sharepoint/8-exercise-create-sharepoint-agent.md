@@ -92,4 +92,4 @@ Use a SharePoint site that contains content such as documents, pages, or lists. 
 
 1. Take some time to test the agent. You can use any of the starter prompts or enter custom prompts.
 
-1. If you want to make any changes to the agent, select the **ellipsis (...)** icon in the upper corner of the agent pane. In the drop-down menu that appears, select **Edit agent**. The **Edit agent** window opens, which is a replica of the **Create your new agent** window. Navigate through the tabs to update the properties you want to change and then save your changes.
+1. If you want to make any changes to the agent, select the **ellipsis (...)** icon in the upper-right corner of the agent pane. In the drop-down menu that appears, select **Edit agent**. The **Edit agent** window opens, which is a replica of the **Create your new agent** window. Navigate through the tabs to update the properties you want to change and then save your changes.
