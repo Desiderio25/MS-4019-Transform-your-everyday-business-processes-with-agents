@@ -9,17 +9,19 @@ lab:
 
 # Use the Analyst agent
 
-As organizations become more data-driven, the ability to quickly interpret and communicate insights from raw information is a critical skill. Microsoft 365 Copilot's Analyst agent empowers users to do just that by analyzing and visualizing data directly within familiar tools like Excel and Forms. This lab provides a practical walkthrough of how to use the Analyst agent to make sense of existing datasets—whether from surveys, spreadsheets, or poll results—and turn them into actionable insights with minimal effort.
+As organizations become more data-driven, the ability to interpret raw data and communicate meaningful insights is increasingly important. The Analyst agent in Microsoft 365 Copilot helps you analyze and visualize data from sources such as Excel and Forms by using natural-language prompts. In this scenario-based lab, you'll use the Analyst agent to explore trends, identify anomalies, and create visualizations from survey data. You'll see how the agent can turn raw data into clear summaries and stakeholder-ready charts, reducing the time and manual effort required to analyze results.
 
 In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
 
 ### Exercise - Analyze survey results with the Analyst agent
 
-You're tasked with analyzing the survey results that pertain to an internal company initiative called "Project Nexus," a six-week pilot program aimed at improving cross-departmental collaboration through a new digital workspace platform. The project involved employees from various departments including IT, HR, Marketing, and Operations, who were asked to use the platform for daily communication, document sharing, and task management. The project's goal was to evaluate the platform's effectiveness in enhancing productivity, streamlining communication, and meeting project deadlines.
+You're tasked with analyzing the survey results from an internal company initiative called Project Nexus, a six-week pilot program designed to improve collaboration between departments through a new digital workspace platform. Employees from IT, HR, Marketing, and Operations used the platform for daily communication, document sharing, and task management.
 
-After the pilot concluded, participants were surveyed to assess their satisfaction with the project, the clarity and effectiveness of communication, adherence to the proposed timeline, and their overall experience with the new system. You plan to use the Microsoft 365 Copilot's prebuilt Analyst agent to explore the survey results from Project Nexus. As with any prebuilt agent, you can enter your own custom prompts, or you can use the agent's starter prompts. The Analyst agent's starter prompts are designed to produce quantitative, qualitative, and visualization analysis, and overall project insights and recommendations.
+The goal of the pilot was to evaluate whether the platform could improve productivity, streamline communication, and help employees complete project work on time. After the pilot, participants completed a survey about their satisfaction with the project, the effectiveness of communication, adherence to the project timeline, and their overall experience with the platform.
 
-Perform the following steps to direct the Analyst agent to interpret and visualize the survey results regarding Project Nexus:
+You'll use the prebuilt Analyst agent in Microsoft 365 Copilot to explore the survey results stored in an Excel workbook. You can enter your own prompts or use the agent's starter prompts to analyze the data, create visualizations, identify useful insights, and generate recommendations.
+
+Complete the following steps to interpret and visualize the Project Nexus survey results using the Analyst agent.
 
 1. In a web browser, go to the following link to access a copy of the **Project Nexus Survey Results**: `https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx`. Select the **Download file** button at the top of the screen to save the file to your device.
 
