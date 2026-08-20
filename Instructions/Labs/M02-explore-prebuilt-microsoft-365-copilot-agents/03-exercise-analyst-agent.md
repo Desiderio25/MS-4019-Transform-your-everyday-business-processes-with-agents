@@ -25,7 +25,7 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
 
 1. Open a new browser tab, navigate to **Microsoft 365 Copilot** at `https://m365.cloud.microsoft.com`, and sign in using your credentials for this exercise.
 
-1. If prompted, choose the option to stay signed in.
+1. If the **Stay signed in?** prompt appears, select **Yes**.
 
 1. In **Microsoft 365 Copilot**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **More agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
 
