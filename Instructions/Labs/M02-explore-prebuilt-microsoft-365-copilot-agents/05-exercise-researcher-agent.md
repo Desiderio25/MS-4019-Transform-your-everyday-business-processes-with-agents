@@ -15,7 +15,7 @@ In today's fast-paced workplace, the ability to quickly synthesize large volumes
 
 This lab offers a hands-on opportunity to explore how the Researcher agent can help you uncover insights, organize information, and generate polished outputs from your own data, all within the familiar Microsoft 365 environment. Whether you're consolidating project updates, gathering stakeholder input, or preparing for executive discussions, this lab demonstrates how Copilot can enhance your productivity and ensure you're always ready with the right information at the right time.
 
-> [!NOTE]
+> **Note:**
 > If you're using a Microsoft 365 lab tenant, review the available content in **Outlook**, **Microsoft Teams**, and **OneDrive** before starting this exercise. Researcher can use emails, conversations, meetings, and files from these applications as sources for analysis. If you're using your own Microsoft 365 environment, Researcher will use the content available to you.
 
 In this training exercise, you plan to use the Researcher agent to synthesize information across Outlook, OneDrive, and Teams to prepare insights on a topic from your own data.
@@ -30,7 +30,7 @@ With a simple command, you can instruct the platform to collate and distill the 
 
 1. The **Researcher** agent window appears. In the prompt field, enter the following prompt, replacing `<Topic X>` with an actual project name or topic that you participated in at your organization: `Help me gather and summarize all recent discussions, documents, and emails related to <Topic X> from the past 90 days`.
 
-1. Review the **Researcher** agent's response. If it asks any follow-up questions, reply however you wish. For example, **Researcher** may ask questions such as:
+1. Review the **Researcher** agent's response. Depending on the topic and available data, the agent may generate a report, provide recommendations, or ask follow-up questions to refine the results such as:
 
     - Are there any specific aspects of `<Topic X>` you're particularly interested in, such as performance, updates, or issues?
     - Do you need a detailed report or a high-level summary?
