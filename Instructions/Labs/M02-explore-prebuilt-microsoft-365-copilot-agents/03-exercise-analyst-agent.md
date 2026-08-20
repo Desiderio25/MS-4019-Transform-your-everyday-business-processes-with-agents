@@ -27,6 +27,8 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
 
 1. If prompted, choose the option to stay signed in.
 
+1. Skip any Welcome messages that appear.
+
 1. In **Microsoft 365 Copilot**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **More agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
 
 1. The **Analyst** agent window appears. In the prompt field, select the **Add and manage sources** icon, which is the plus sign (**+**) icon.
@@ -35,14 +37,14 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
 
 1. In the prompt field, enter the following prompt next to the linked Project Nexus Survey Results file: `Analyze this spreadsheet and tell me the top three trends`.
 
-   > [!NOTE]
+   > **Note:**
    > Note how Analyst runs several Python commands to come up with its final list of trends. You might have to wait a minute or so for it to complete all the commands so that it can aggregate the results and determine the top three trends. Below each command is a description of the results of that command. Continue to scroll down through the results to see the top three trends.
 
 1. To drill deeper into each category, enter the following prompt: `What is the average rating for each survey category?`
 
-1. Review the results. If the Analyst agent suggests a next step, such as "Would you like a visual comparison of these averages?", enter `Yes` in the prompt field.
+1. Review the Analyst agent's response. If the agent suggests a follow-up action or asks whether you want to create a visual comparison, enter `Yes` in the prompt field and submit your response. If the agent doesn’t offer to create a visual comparison, enter the following prompt: `Create a bar chart comparing the average ratings for Project Satisfaction, Communication Effectiveness, Timeline Adherence, and Overall Experience.`
 
-   > [!NOTE]
+   > **Note:**
    > A large amount of blank space might appear between the agent's
    > response and the prompt field. If so, scroll up to find the response
    > and scroll to the bottom of the page to find the prompt field. This
@@ -67,8 +69,8 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
       - `Provide a summary report of the survey findings with actionable recommendations.`
    - Quantitative visualization prompts:
       - `Generate a pie chart of overall ratings distribution.`
-      - `Create a bar chart comparing the average ratings for Project Satisfaction, Communication Effectiveness, Timeline Adherence, and Overall Experience.`
-      - `Plot a histogram of the satisfaction ratings to see the distribution of ratings.`
+      - `Create a radar chart comparing the average ratings across all survey categories.`
+      - `Plot a histogram of the satisfaction ratings to see their distribution.`
       - `Generate a scatter plot to analyze the relationship between Communication Effectiveness and Overall Experience.`
       - `Create a correlation heatmap for all numeric rating categories.`
       - `Make a box plot for each rating category to show the range and quartiles.`
