@@ -9,23 +9,27 @@ lab:
 
 # Use the Analyst agent
 
-As organizations become more data-driven, the ability to quickly interpret and communicate insights from raw information is a critical skill. Microsoft 365 Copilot's Analyst agent empowers users to do just that by analyzing and visualizing data directly within familiar tools like Excel and Forms. This lab provides a practical walkthrough of how to use the Analyst agent to make sense of existing datasets—whether from surveys, spreadsheets, or poll results—and turn them into actionable insights with minimal effort.
+As organizations become more data-driven, the ability to interpret raw data and communicate meaningful insights is increasingly important. The Analyst agent in Microsoft 365 Copilot helps you analyze and visualize data from sources such as Excel and Forms by using natural-language prompts. In this scenario-based lab, you'll use the Analyst agent to explore trends, identify anomalies, and create visualizations from survey data. You'll see how the agent can turn raw data into clear summaries and stakeholder-ready charts, reducing the time and manual effort required to analyze results.
 
 In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
 
 ### Exercise - Analyze survey results with the Analyst agent
 
-You're tasked with analyzing the survey results that pertain to an internal company initiative called "Project Nexus," a six-week pilot program aimed at improving cross-departmental collaboration through a new digital workspace platform. The project involved employees from various departments including IT, HR, Marketing, and Operations, who were asked to use the platform for daily communication, document sharing, and task management. The project's goal was to evaluate the platform's effectiveness in enhancing productivity, streamlining communication, and meeting project deadlines.
+You're tasked with analyzing the survey results from an internal company initiative called Project Nexus, a six-week pilot program designed to improve collaboration between departments through a new digital workspace platform. Employees from IT, HR, Marketing, and Operations used the platform for daily communication, document sharing, and task management.
 
-After the pilot concluded, participants were surveyed to assess their satisfaction with the project, the clarity and effectiveness of communication, adherence to the proposed timeline, and their overall experience with the new system. You plan to use the Microsoft 365 Copilot's prebuilt Analyst agent to explore the survey results from Project Nexus. As with any prebuilt agent, you can enter your own custom prompts, or you can use the agent's starter prompts. The Analyst agent's starter prompts are designed to produce quantitative, qualitative, and visualization analysis, and overall project insights and recommendations.
+The goal of the pilot was to evaluate whether the platform could improve productivity, streamline communication, and help employees complete project work on time. After the pilot, participants completed a survey about their satisfaction with the project, the effectiveness of communication, adherence to the project timeline, and their overall experience with the platform.
 
-Perform the following steps to direct the Analyst agent to interpret and visualize the survey results regarding Project Nexus:
+You'll use the prebuilt Analyst agent in Microsoft 365 Copilot to explore the survey results stored in an Excel workbook. You can enter your own prompts or use the agent's starter prompts to analyze the data, create visualizations, identify useful insights, and generate recommendations.
+
+Complete the following steps to interpret and visualize the Project Nexus survey results using the Analyst agent.
 
 1. In a web browser, go to the following link to access a copy of the **Project Nexus Survey Results**: `https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx`. Select the **Download file** button at the top of the screen to save the file to your device.
 
 1. Open a new browser tab, navigate to **Microsoft 365 Copilot** at `https://m365.cloud.microsoft.com`, and sign in using your credentials for this exercise.
 
 1. If prompted, choose the option to stay signed in.
+
+1. Skip any Welcome messages that appear.
 
 1. In **Microsoft 365 Copilot**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **More agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
 
@@ -35,14 +39,14 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
 
 1. In the prompt field, enter the following prompt next to the linked Project Nexus Survey Results file: `Analyze this spreadsheet and tell me the top three trends`.
 
-   > [!NOTE]
+   > **Note:**
    > Note how Analyst runs several Python commands to come up with its final list of trends. You might have to wait a minute or so for it to complete all the commands so that it can aggregate the results and determine the top three trends. Below each command is a description of the results of that command. Continue to scroll down through the results to see the top three trends.
 
 1. To drill deeper into each category, enter the following prompt: `What is the average rating for each survey category?`
 
-1. Review the results. If the Analyst agent suggests a next step, such as "Would you like a visual comparison of these averages?", enter `Yes` in the prompt field.
+1. Review the Analyst agent's response. If the agent suggests a follow-up action or asks whether you want to create a visual comparison, enter `Yes` in the prompt field and submit your response. If the agent doesn’t offer to create a visual comparison, enter the following prompt: `Create a bar chart comparing the average ratings for Project Satisfaction, Communication Effectiveness, Timeline Adherence, and Overall Experience.`
 
-   > [!NOTE]
+   > **Note:**
    > A large amount of blank space might appear between the agent's
    > response and the prompt field. If so, scroll up to find the response
    > and scroll to the bottom of the page to find the prompt field. This
@@ -67,8 +71,8 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
       - `Provide a summary report of the survey findings with actionable recommendations.`
    - Quantitative visualization prompts:
       - `Generate a pie chart of overall ratings distribution.`
-      - `Create a bar chart comparing the average ratings for Project Satisfaction, Communication Effectiveness, Timeline Adherence, and Overall Experience.`
-      - `Plot a histogram of the satisfaction ratings to see the distribution of ratings.`
+      - `Create a radar chart comparing the average ratings across all survey categories.`
+      - `Plot a histogram of the satisfaction ratings to see their distribution.`
       - `Generate a scatter plot to analyze the relationship between Communication Effectiveness and Overall Experience.`
       - `Create a correlation heatmap for all numeric rating categories.`
       - `Make a box plot for each rating category to show the range and quartiles.`
