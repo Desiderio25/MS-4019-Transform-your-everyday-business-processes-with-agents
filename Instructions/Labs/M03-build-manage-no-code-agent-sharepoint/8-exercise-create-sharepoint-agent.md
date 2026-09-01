@@ -25,7 +25,7 @@ Use a SharePoint site that contains content such as documents, pages, or lists. 
 - A resource hub site
 - A Teams-connected SharePoint site
 
-1. Navigate to the **Microsoft 365 Copilot** home page at `https://m365.cloud.microsoft.com`, select the **App Launcher** icon (grid icon) on the top left, and then select **SharePoint**.
+1. Navigate to the **Microsoft Copilot** home page at `https://m365.cloud.microsoft.com`, select the **App Launcher** icon (grid icon) on the top left, and then select **SharePoint**.
 
 1. If welcome messages appear, skip them.
 

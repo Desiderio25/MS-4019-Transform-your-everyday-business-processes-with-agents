@@ -29,9 +29,9 @@ Once you select an agent, you should explore its capabilities using your own Mic
 
 Perform the following steps to see how the prebuilt agent that you chose can function as a real productivity partner by solving a problem that matters to you:
 
-1. In **Microsoft Edge**, open a new tab and enter the **Microsoft 365 Copilot** URL `https://m365.cloud.microsoft.com`.
+1. In **Microsoft Edge**, open a new tab and enter the **Microsoft Copilot** URL `https://m365.cloud.microsoft.com`.
 
-1. In **Microsoft 365 Copilot**, in the navigation pane, under **Agents**, select **More agents**.
+1. In **Microsoft Copilot**, in the navigation pane, under **Agents**, select **More agents**.
 
 1. In the **Agent Store** window, in the **Built by Microsoft** section, select the agent of your choice. Remember, don't use the Researcher or Analyst agents. Try a different agent for this exercise.
 

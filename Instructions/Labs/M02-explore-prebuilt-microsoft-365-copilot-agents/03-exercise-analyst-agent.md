@@ -25,13 +25,13 @@ Complete the following steps to interpret and visualize the Project Nexus survey
 
 1. In a web browser, go to the following link to access a copy of the **Project Nexus Survey Results**: `https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx`. Select the **Download file** button at the top of the screen to save the file to your device.
 
-1. Open a new browser tab, navigate to **Microsoft 365 Copilot** at `https://m365.cloud.microsoft.com`, and sign in using your credentials for this exercise.
+1. Open a new browser tab, navigate to **Microsoft Copilot** at `https://m365.cloud.microsoft.com`, and sign in using your credentials for this exercise.
 
 1. If prompted, choose the option to stay signed in.
 
 1. Skip any Welcome messages that appear.
 
-1. In **Microsoft 365 Copilot**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **More agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
+1. In **Microsoft Copilot**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **More agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
 
 1. The **Analyst** agent window appears. In the prompt field, select the **Add and manage sources** icon, which is the plus sign (**+**) icon.
 

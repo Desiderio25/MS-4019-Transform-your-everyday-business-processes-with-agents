@@ -13,7 +13,7 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
 ### Exercise - Build a custom agent with Agent Builder
 
-1. In your Microsoft Edge browser, sign in to the **Microsoft 365 Copilot** home page at `https://m365.cloud.microsoft.com`.
+1. In your Microsoft Edge browser, open the **Microsoft Copilot** home page at `https://m365.cloud.microsoft.com`.
 
 1. In the left navigation pane, under **Agents**, select **New agent**. Doing so opens Agent Builder and displays the **New Agent** page.
 
