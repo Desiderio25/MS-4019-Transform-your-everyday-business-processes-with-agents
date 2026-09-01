@@ -11,16 +11,16 @@ lab:
 
 # Use the prebuilt agent of your choice
 
-With a growing ecosystem of specialized, AI-powered agents in Microsoft 365 Copilot, users now have the flexibility to choose the right tool for the task at hand. Whether you're preparing for meetings, managing projects, catching up on missed communications, or analyzing data, prebuilt agents are designed to streamline your workflow using your own Microsoft 365 data. This lab offers an open-ended, hands-on opportunity to explore one of these agents, test its capabilities, and apply it to a real productivity challenge from your day-to-day work.
+With a growing ecosystem of specialized, AI-powered agents in Microsoft Copilot, users now have the flexibility to choose the right tool for the task at hand. Whether you're preparing for meetings, managing projects, catching up on missed communications, or analyzing data, prebuilt agents are designed to streamline your workflow using your own Microsoft 365 data. This lab offers an open-ended, hands-on opportunity to explore one of these agents, test its capabilities, and apply it to a real productivity challenge from your day-to-day work.
 
 > **Note:**
 > If you're using a Microsoft 365 lab tenant, review the available content in **Outlook**, **Microsoft Teams**, and **OneDrive** before starting this exercise. If you're using your own Microsoft 365 environment, complete this training exercise using your own personal data.
 
 ### Exercise - Choosing the right agent for your project
 
-This hands-on exercise enables you to take a practical approach to understanding Microsoft 365 Copilot Chat's prebuilt agents by applying one to a real situation from your own recent work. Think back to a project you were involved with over the past 90 days—something that required coordination, communication, or follow-up. Maybe it was a report you had to write, a team deliverable that stalled, a client request that got buried in email, or a meeting series where decisions were never clearly documented.
+This hands-on exercise enables you to take a practical approach to understanding Microsoft Copilot Chat's prebuilt agents by applying one to a real situation from your own recent work. Think back to a project you were involved with over the past 90 days—something that required coordination, communication, or follow-up. Maybe it was a report you had to write, a team deliverable that stalled, a client request that got buried in email, or a meeting series where decisions were never clearly documented.
 
-Your task is to select a prebuilt Microsoft 365 Copilot Chat agent that you feel can help you resolve or gain insights into your project.
+Your task is to select a prebuilt Microsoft Copilot Chat agent that you feel can help you resolve or gain insights into your project.
 
 > **Important:**
 > Earlier exercises in this module used the Analyst and Researcher agents. For this exercise, don't reuse those agents. Instead, use one of the other prebuilt agents to help with your selected project. Doing so ensures you gain experience with the full range of Copilot capabilities and understand which agent is best suited for different types of tasks.

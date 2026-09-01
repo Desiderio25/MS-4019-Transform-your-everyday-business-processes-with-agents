@@ -9,7 +9,7 @@ lab:
 
 # Use the Analyst agent
 
-As organizations become more data-driven, the ability to interpret raw data and communicate meaningful insights is increasingly important. The Analyst agent in Microsoft 365 Copilot helps you analyze and visualize data from sources such as Excel and Forms by using natural-language prompts. In this scenario-based lab, you'll use the Analyst agent to explore trends, identify anomalies, and create visualizations from survey data. You'll see how the agent can turn raw data into clear summaries and stakeholder-ready charts, reducing the time and manual effort required to analyze results.
+As organizations become more data-driven, the ability to interpret raw data and communicate meaningful insights is increasingly important. The Analyst agent in Microsoft Copilot helps you analyze and visualize data from sources such as Excel and Forms by using natural-language prompts. In this scenario-based lab, you'll use the Analyst agent to explore trends, identify anomalies, and create visualizations from survey data. You'll see how the agent can turn raw data into clear summaries and stakeholder-ready charts, reducing the time and manual effort required to analyze results.
 
 In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
 
@@ -19,7 +19,7 @@ You're tasked with analyzing the survey results from an internal company initiat
 
 The goal of the pilot was to evaluate whether the platform could improve productivity, streamline communication, and help employees complete project work on time. After the pilot, participants completed a survey about their satisfaction with the project, the effectiveness of communication, adherence to the project timeline, and their overall experience with the platform.
 
-You'll use the prebuilt Analyst agent in Microsoft 365 Copilot to explore the survey results stored in an Excel workbook. You can enter your own prompts or use the agent's starter prompts to analyze the data, create visualizations, identify useful insights, and generate recommendations.
+You'll use the prebuilt Analyst agent in Microsoft Copilot to explore the survey results stored in an Excel workbook. You can enter your own prompts or use the agent's starter prompts to analyze the data, create visualizations, identify useful insights, and generate recommendations.
 
 Complete the following steps to interpret and visualize the Project Nexus survey results using the Analyst agent.
 
