@@ -62,11 +62,11 @@ Use a SharePoint site that contains content such as documents, pages, or lists. 
 
    - Select **From OneDrive** to add content from OneDrive.
 
-   - Select the **ellipsis (...)** menu next to the SharePoint site and then select **Add contents from this site** to add document libraries, folders, files, pages, or lists from the current site.
+   - Select the **ellipsis (...)** next to the SharePoint site and then select **Add contents from this site** to add document libraries, folders, files, pages, or lists from the current site.
 
    You can add up to 20 sources. Review the configured sources and add any additional sources that you want the agent to use.
 
-   1. On the **Sources** tab, select the **ellipsis (...)** menu next to the SharePoint site, and then select **Add contents from this site**.
+   1. On the **Sources** tab, select the **ellipsis (...)** next to the SharePoint site, and then select **Add contents from this site**.
 
    1. The **Pick items** window opens. Browse the available libraries and lists for the site. Select the document library, folder, file, page, or list that you want to add as a knowledge source for the agent.
 
@@ -76,7 +76,7 @@ Use a SharePoint site that contains content such as documents, pages, or lists. 
 
 1. Once you're back on the **Sources** tab, you can select the **+ Add contents from this site** option if you want to add more libraries, files, or folders.
 
-   > **Note:**
+   > [!NOTE]
    > You can add content from other SharePoint sites or from OneDrive by using the options available on the **Sources** tab.
 
 1. After you finish defining your sources, select the **Behavior** tab. The **Behavior** tab allows you to define a Welcome message, which is displayed when a user selects this agent in SharePoint. This message field is available in SharePoint agents, but not in Copilot Chat agents.
@@ -87,7 +87,7 @@ Use a SharePoint site that contains content such as documents, pages, or lists. 
 
 1. After you finish making your changes to the SharePoint agent, select **Create agent** to save your changes. The draft configuration is saved and the agent is created.
 
-   > **Note:**
+   > [!NOTE]
    > If you experience any issues when creating the agent, select the **Documents** library in the navigation pane, select the folders or files that you want to use as the agent source, and then select **Copilot** &gt; **Create an agent**. This action opens the **Create your new agent** window, where you can continue to configure the agent.
 
 1. Review the **Your agent is ready to use** confirmation message. Select **Chat with agent** to open the newly created agent. The SharePoint site's home page reappears, and the agent chat pane opens on the right side of the page.
